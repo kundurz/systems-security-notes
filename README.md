@@ -1,1 +1,4 @@
+# Notes 
+
 A curated set of notes, experiments, and writeups on systems security, focusing on binary exploitation, memory safety, OS internals, and hardware–software security mechanisms. Includes annotated C/assembly examples, CTF-style analyses, and practical mitigation design notes.
+
