@@ -7,9 +7,9 @@
 * CPUs execute instructions in sequence *until told not to*
 * One way to interrupt the sequence is with the `jmp` instruction
 ```asm
-	mov cx, 1337
-	jmp STAY_LEET
-	mov cx, 0 <-- Never executes 
+mov cx, 1337
+jmp STAY_LEET
+mov cx, 0 <-- Never executes 
 STAY_LEET:
 	push rcx
 ```
