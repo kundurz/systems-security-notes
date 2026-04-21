@@ -163,7 +163,7 @@ typedef struct {
 * sh_addralign --> specifies whether section has any alignment constraitns
 * sh_entsize --> For sections that contain fixed size entires, contains the size for each entry.
 
-## From pwn.college video
+## Additional context
 
 #### What is an ELF?
 * Executable and Linkable format
