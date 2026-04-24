@@ -33,7 +33,7 @@ mov rax, 0x12345
 mov rbx, [rax] <-- will move 8 bytes, but starting from 0x12345
 ```
 * This will store the 64-bit value in `rbx` into memory address `0x133337` 
-```
+```asm
 mov rax, 0x13337
 mov [rax], rbx
 ```
