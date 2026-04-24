@@ -49,7 +49,7 @@ mov [rsp], rcx
 #### Controlling Write Sizes
 * You can use partials to store/load fewer bits
 * Load 64 bits form addr 0x12345 and store the lower 32 bits to addr 0x133337
-```asvm
+```asm
 mov rax, 0x12345
 mov rbx, [rax]
 mov rax, 0x13337
